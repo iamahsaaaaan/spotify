@@ -1,0 +1,6 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+</style>
+
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Varela Round', sans-serif;

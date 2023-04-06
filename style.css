@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Varela+Round&display=swap");
+body {
+  background-color: antiquewhite;
+  font-size: 1.1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand img {
+  width: 3rem;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+nav {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.contents {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 1rem 1.3rem;
+}
+
+.container {
+  min-height: 62vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  width: 65%;
+  border-radius: 2%;
+  background-image: url("backimg.jpg");
+  background-size: cover;
+}
+
+.songItemList{
+    margin: 40px 0;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+
+.songListPlay i{
+    cursor: pointer;
+}
+
+.spanTime{
+    margin: 0 5px;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 120px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.songInfo{
+    position: absolute;
+    left: 0;
+    margin-left: 10vw;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.4rem;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    margin-right: 10px;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.icons i {
+  margin: 1rem 0.5rem 0;
+  cursor: pointer;
+}
